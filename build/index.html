@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Switcher</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body class="antialiased h-screen">
+    <div
+      class="pattern w-full h-60 lg:h-52 rounded-b-3xl lg:rounded-b-2xl bg-[#f5f7ff] pt-9 lg:pt-6 px-9 lg:px-36"
+    >
+      <div
+        class="flex flex-col lg:flex-row justify-start lg:justify-center items-start lg:items-center"
+      >
+        <div>
+          <h1 class="text-3xl lg:text-2xl font-bold parah">
+            Social Media Dashboard
+          </h1>
+          <p
+            class="font-bold text-lg lg:text-sm text-[#63687e] desaturated pb-5"
+          >
+            Total Followers: 23,004
+          </p>
+          <hr class="w-[410px] text-black lg:hidden" />
+        </div>
+        <div
+          class="inline-flex lg:ml-auto transition-all duration-1000 pt-5 lg:pt-0"
+        >
+          <div class="inline-flex gap-3 justify-center items-center">
+            <p class="text-lg lg:text-xs font-bold text-[#aeb3cb] mode">
+              Light Mode
+            </p>
+            <div class="toogle-on">
+              <span class="fa-solid fa-toggle-on fa-2xl text-[#63687e]"></span>
+            </div>
+            <div class="toogle-off hidden">
+              <span class="fa-solid fa-toggle-off fa-2xl text-[#126bc4]"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-col justify-center items-center lg:flex-row -mt-10 lg:-mt-24 px-9 lg:px-36 gap-7"
+    >
+      <div
+        class="card-background bg-[#f0f2fa] w-full lg:w-60 h-64 lg:h-52 rounded-md overflow-hidden flex flex-col justify-center items-center gap-7 lg:gap-5 border-t-4 border-t-[#198ff5] hover:bg-black/10 transition duration-1000"
+      >
+        <div class="inline-flex justify-center items-center gap-2">
+          <img
+            class="object-contain"
+            src="img/icon-facebook.svg"
+            alt="icon-facebook"
+          />
+          <a class="text-sm lg:text-xs text-[#63687e] font-bold" href="#"
+            >@nathanf</a
+          >
+        </div>
+        <div
+          class="text-center inline-flex flex-col justify-center items-center gap-1"
+        >
+          <h4 class="text-6xl lg:text-5xl font-bold">1987</h4>
+          <p
+            class="desaturated text-sm lg:text-xs tracking-[0.3em] text-[#63687e]"
+          >
+            FOLLOWERS
+          </p>
+        </div>
+        <div class="inline-flex justify-center items-center gap-1">
+          <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+          <p class="text-sm lg:text-xs font-bold text-center text-teal-500">
+            12 Today
+          </p>
+        </div>
+      </div>
+      <div
+        class="card-background bg-[#f0f2fa] w-full lg:w-60 h-64 lg:h-52 rounded-md overflow-hidden flex flex-col justify-center items-center gap-7 lg:gap-5 border-t-4 border-t-[#1ca0f2] hover:bg-black/10 transition duration-1000"
+      >
+        <div class="inline-flex justify-center items-center gap-2">
+          <img
+            class="object-contain"
+            src="img/icon-twitter.svg"
+            alt="icon-twitter"
+          />
+          <a class="text-sm lg:text-xs text-[#63687e] font-bold" href="#"
+            >@nathanf</a
+          >
+        </div>
+        <div
+          class="text-center inline-flex flex-col justify-center items-center gap-1"
+        >
+          <h4 class="text-6xl lg:text-5xl font-bold">1044</h4>
+          <p
+            class="text-sm lg:text-xs tracking-[0.3em] text-[#63687e] desaturated"
+          >
+            FOLLOWERS
+          </p>
+        </div>
+        <div class="inline-flex justify-center items-center gap-1">
+          <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+          <p class="text-sm lg:text-xs font-bold text-center text-teal-500">
+            99 Today
+          </p>
+        </div>
+      </div>
+      <div
+        class="card-background bg-[#f0f2fa] w-full lg:w-60 h-64 lg:h-52 rounded-md overflow-hidden flex flex-col justify-center items-center gap-7 lg:gap-5 border-t-4 border-t-[#C13584] hover:bg-black/10 transition duration-1000"
+      >
+        <div class="inline-flex justify-center items-center gap-2">
+          <img
+            class="object-contain"
+            src="img/icon-instagram.svg"
+            alt="icon-instagram"
+          />
+          <a class="text-sm lg:text-xs text-[#63687e] font-bold" href="#"
+            >@realnathanf</a
+          >
+        </div>
+        <div
+          class="text-center inline-flex flex-col justify-center items-center gap-1"
+        >
+          <h4 class="text-6xl lg:text-5xl font-bold">11k</h4>
+          <p
+            class="text-sm lg:text-xs tracking-[0.3em] text-[#63687e] desaturated"
+          >
+            FOLLOWERS
+          </p>
+        </div>
+        <div class="inline-flex justify-center items-center gap-1">
+          <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+          <p class="text-sm lg:text-xs font-bold text-center text-teal-500">
+            1099 Today
+          </p>
+        </div>
+      </div>
+      <div
+        class="card-background bg-[#f0f2fa] w-full lg:w-60 h-64 lg:h-52 rounded-md overflow-hidden flex flex-col justify-center items-center gap-7 lg:gap-5 border-t-4 border-t-[#c4032a] hover:bg-black/10 transition duration-1000"
+      >
+        <div class="inline-flex justify-center items-center gap-2">
+          <img
+            class="object-contain"
+            src="img/icon-youtube.svg"
+            alt="icon-youtube"
+          />
+          <a class="text-sm lg:text-xs text-[#63687e] font-bold" href="#"
+            >Nathan F.</a
+          >
+        </div>
+        <div
+          class="text-center inline-flex flex-col justify-center items-center gap-1"
+        >
+          <h4 class="text-6xl lg:text-5xl font-bold">8239</h4>
+          <p
+            class="text-sm lg:text-xs tracking-[0.3em] text-[#63687e] desaturated"
+          >
+            SUBSCRIBERS
+          </p>
+        </div>
+        <div class="inline-flex justify-center items-center gap-1">
+          <img class="object-contain" src="img/icon-down.svg" alt="icon-down" />
+          <p class="text-sm lg:text-xs font-bold text-center text-[#FF0000]">
+            1099 Today
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="px-9 lg:px-36 pt-12 lg:pt-10">
+      <h4 class="text-[#63687e] font-bold text-2xl lg:text-xl pb-8 lg:pb-5">
+        Overview - Today
+      </h4>
+      <div class="flex flex-col lg:flex-row justify-center items-center gap-7">
+        <div
+          class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md hover:bg-black/10 transition duration-1000"
+        >
+          <div class="inline-flex">
+            <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+              Page Views
+            </p>
+            <img
+              class="object-contain ml-auto"
+              src="img/icon-facebook.svg"
+              alt="icon-facebook"
+            />
+          </div>
+          <div class="inline-flex justify-end items-end">
+            <p class="text-4xl lg:text-3xl font-bold parah">87</p>
+            <div class="inline-flex gap-1 ml-auto">
+              <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+              <p class="text-sm lg:text-xs font-bold text-teal-500">3%</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md hover:bg-black/10 transition duration-1000"
+        >
+          <div class="inline-flex">
+            <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+              Likes
+            </p>
+            <img
+              class="object-contain ml-auto"
+              src="img/icon-facebook.svg"
+              alt="icon-facebook"
+            />
+          </div>
+          <div class="inline-flex justify-end items-end">
+            <p class="text-4xl lg:text-3xl font-bold parah">52</p>
+            <div class="inline-flex gap-1 ml-auto">
+              <img
+                class="object-contain"
+                src="img/icon-down.svg"
+                alt="icon-down"
+              />
+              <p class="text-sm lg:text-xs font-bold text-[#FF0000]">2%</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md hover:bg-black/10 transition duration-1000"
+        >
+          <div class="inline-flex">
+            <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+              Likes
+            </p>
+            <img
+              class="object-contain ml-auto"
+              src="img/icon-instagram.svg"
+              alt="icon-instagram"
+            />
+          </div>
+          <div class="inline-flex justify-end items-end">
+            <p class="text-4xl lg:text-3xl font-bold parah">5462</p>
+            <div class="inline-flex gap-1 ml-auto">
+              <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+              <p class="text-sm lg:text-xs font-bold text-teal-500">2257%</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md hover:bg-black/10 transition duration-1000"
+        >
+          <div class="inline-flex">
+            <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+              Profile Views
+            </p>
+            <img
+              class="object-contain ml-auto"
+              src="img/icon-instagram.svg"
+              alt="icon-instagram"
+            />
+          </div>
+          <div class="inline-flex justify-end items-end">
+            <p class="text-4xl lg:text-3xl font-bold parah">52k</p>
+            <div class="inline-flex gap-1 ml-auto">
+              <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+              <p class="text-sm lg:text-xs font-bold text-teal-500">1375%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-col lg:flex-row justify-center items-center mt-7 pb-16 px-9 lg:px-36 gap-7"
+    >
+      <div
+        class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md hover:bg-black/10 transition duration-1000"
+      >
+        <div class="inline-flex">
+          <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+            Retweets
+          </p>
+          <img
+            class="object-contain ml-auto"
+            src="img/icon-twitter.svg"
+            alt="icon-twitter"
+          />
+        </div>
+        <div class="inline-flex justify-end items-end">
+          <p class="text-4xl lg:text-3xl font-bold parah">87</p>
+          <div class="inline-flex gap-1 ml-auto">
+            <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+            <p class="text-sm lg:text-xs font-bold text-teal-500">303%</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md"
+      >
+        <div class="inline-flex">
+          <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+            Likes
+          </p>
+          <img
+            class="object-contain ml-auto"
+            src="img/icon-twitter.svg"
+            alt="icon-twitter"
+          />
+        </div>
+        <div class="inline-flex justify-end items-end">
+          <p class="text-4xl lg:text-3xl font-bold parah">52</p>
+          <div class="inline-flex gap-1 ml-auto">
+            <img class="object-contain" src="img/icon-up.svg" alt="icon-up" />
+            <p class="text-sm lg:text-xs font-bold text-teal-500">507%</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md"
+      >
+        <div class="inline-flex">
+          <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+            Likes
+          </p>
+          <img
+            class="object-contain ml-auto"
+            src="img/icon-youtube.svg"
+            alt="icon-youtube"
+          />
+        </div>
+        <div class="inline-flex justify-end items-end">
+          <p class="text-4xl lg:text-3xl font-bold parah">107</p>
+          <div class="inline-flex gap-1 ml-auto">
+            <img
+              class="object-contain"
+              src="img/icon-down.svg"
+              alt="icon-down"
+            />
+            <p class="text-sm lg:text-xs font-bold text-[#FF0000]">19%</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#f0f2fa] card-background w-full lg:w-60 flex flex-col gap-5 p-6 rounded-md"
+      >
+        <div class="inline-flex">
+          <p class="text-lg lg:text-sm font-bold text-[#63687e] desaturated">
+            Total Views
+          </p>
+          <img
+            class="object-contain ml-auto"
+            src="img/icon-youtube.svg"
+            alt="icon-youtube"
+          />
+        </div>
+        <div class="inline-flex justify-end items-end">
+          <p class="text-4xl lg:text-3xl font-bold parah">1407</p>
+          <div class="inline-flex gap-1 ml-auto">
+            <img
+              class="object-contain"
+              src="img/icon-down.svg"
+              alt="icon-down"
+            />
+            <p class="text-sm lg:text-xs font-bold text-[#FF0000]">12%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
